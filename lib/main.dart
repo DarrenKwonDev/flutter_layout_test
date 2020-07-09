@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:layoutchallenge/Screen/city_of_light.dart';
 import 'package:layoutchallenge/Screen/login.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             primaryColor: backColor,
             appBarTheme: AppBarTheme(color: backColor)),
-        home: LoginScreen());
+        home: CityOfLight());
   }
 }
 
